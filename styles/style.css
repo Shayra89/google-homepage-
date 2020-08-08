@@ -1,0 +1,219 @@
+body{
+    font-family: Arial, sans-serif;
+    color:rgba(34, 34, 34, 1);
+    font-size: small;
+  }
+
+  #left-nav {
+    height: fit-content;
+    width: fit-content;
+    float: left;
+    margin: 20px 10px 10px 10px;
+  }
+  #right-nav {
+    height: fit-content;
+    width: fit-content;
+    float: right;
+    margin: 20px 30px 10px 10px;
+  }
+
+  #center {
+    padding: 250px 250px 250px 250px;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    clear: both;
+  }
+
+  #logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  #search-box {
+    border: 1px solid rgba(223, 225, 229, 1);
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    width: 482px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #search-box:hover {    
+    box-shadow: 1px 1px 1px 1px rgba(232, 232, 232, 1);
+    background-color: rgba(255, 255, 255, 1);
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .search-icons {
+    height: 20px;
+    width: 20px;
+  }
+
+  #lupa {
+    padding: 12px 30px 4px 0;
+  }
+
+  #microfono {
+      padding: 12px 0 4px 30px;
+  }
+
+  form {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 16px;
+  }
+
+  input {
+   border: none;
+   margin: 0;
+   padding: 0;
+   color: rgba(0, 0, 0, 1);
+   outline: none;
+   background-color: transparent;
+   display: flex;
+   cursor: text;
+   font-size: 16px;
+   width: 338px;
+   height: 34px;
+  }
+
+  #the-buttons {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+  }
+
+   #curious:hover {
+    color: rgba(0, 0, 0, 1);
+    border-color: rgba(155, 156, 158, 1);
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: rgba(0, 0, 0, 0.1)  0px 1px 1px 0px;
+   }
+
+   #lucky:hover {
+    color: rgba(0, 0, 0, 1);
+    border-color: rgba(155, 156, 158, 1);
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px;
+   }
+
+  #curious {
+      display: flex;
+      cursor: pointer;
+      font-size: 14px;
+      background-color: #rgba(242, 242, 242, 1);
+      color: rgba(95, 99, 104, 1);
+      border: 1px solid rgba(242, 242, 242, 1);
+      border-radius: 4px;
+      text-align: center;
+      line-height: 27px;
+      height: 36px;
+      margin-right: 5px;
+  }
+
+  #lucky {
+      display: flex;
+      cursor: pointer;
+      font-size: 14px;
+      background-color: rgba(242, 242, 242, 1);
+      color: rgba(95, 99, 104, 1);
+      border: 1px solid rgba(242, 242, 242, 1);
+      border-radius: 4px;
+      text-align: center;
+      line-height: 27px;
+      height: 36px;
+      margin-left: 5px;
+  }
+  #left-footer {
+    height: fit-content;
+    width: fit-content;
+    float: left;
+  }
+
+  #right-footer {
+    height: fit-content;
+    width: fit-content;
+    float: right;
+  }
+
+  #footer {
+    bottom: 0;
+    left: 0;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(242, 242, 242, 1);
+    border-top: 1px solid rgba(228, 228, 228, 1);
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: lighter;
+    height: 35px;
+    position: fixed;
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 5px;
+  }
+
+  a {
+    color:rgba(34, 34, 34, 1);
+    text-decoration-line: none;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: inline-block;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  .top-left-a {
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 1);
+    opacity: 0.75;
+  }
+
+  .top-right-a {
+    padding-right: 15px;
+    color: rgba(0, 0, 0, 1);
+    opacity: 0.75; 
+  }
+
+  #grid-menu {
+    height: 15px;
+    width: 15px;
+    transform: translateY(5.5px);
+  }
+
+  .bottom-left-a {
+    padding-left: 15px;
+    opacity: 0.75;
+  }
+
+  .bottom-right-a {
+    padding-right: 16px;
+    opacity: 0.75;
+  }
+  #sign-in {
+    background-color: rgba(66, 133, 244, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: 13px;
+    outline: none;
+    border: 1px solid rgba(66, 133, 244, 1);
+    border-radius: 2px;
+    padding: 0px 12px 0px 12px;
+    line-height: 28px;
+    display: inline-block;
+  }
